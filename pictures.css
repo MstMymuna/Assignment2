@@ -1,0 +1,111 @@
+
+.destination{
+    width: 80%;
+margin: 0 auto;
+
+
+
+}
+
+
+
+.tittle2{
+    text-align: center;
+}
+.maldiv{
+    height: 50% 50%;
+    display: flex;
+    gap: 10px;
+    margin-top: 10px;
+    
+    
+}
+.desh{
+    position: absolute;
+    top: 100px;
+    left: 37%;
+    color: white;
+
+}
+.img1{
+    position: relative;
+}
+.img2{
+    position: relative;
+}
+.tor{
+    position: absolute;
+    top: 100px;
+    left: 37%;
+    color: white;
+}
+.img3{
+    position: relative;
+}
+.title{
+    position: absolute;
+    top: 100px;
+    left: 37%;
+    color: white;
+}
+.img4{
+    position: relative;
+}
+.title2{
+    position: absolute;
+    top: 100px;
+    left: 37%;
+    color: white;
+}
+.img5{
+    position: relative;
+}
+.title3{
+    position: absolute;
+    top: 100px;
+    left: 30%;
+    color: white;
+}
+.img6{
+    position: relative;
+}
+.title4{
+    position: absolute;
+    top: 100px;
+    left: 37%;
+    color: white;
+}
+.img7{
+    position: relative;
+}
+.title5{
+    position: absolute;
+    top: 100px;
+    left: 37%;
+    color: white;
+}
+@media screen and (max-width:576px){
+    .maldiv{
+        flex-direction: column;
+    }
+    img{
+        height: 100%;
+        width: 100%;
+        display: block;
+    }
+    .img5 img{
+        height: 250px;
+    }
+    .img3 img{
+        height: 250px;
+    }
+    .img4 img{
+        height: 250px;
+    }
+    .img6 img{
+        height: 250px;
+    }
+    .img7 img{
+        height: 250px;
+    }
+}

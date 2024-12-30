@@ -1,0 +1,40 @@
+.package2{
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+}
+.control{
+    margin-top: 65px;
+    margin-left: 25%;
+}
+.simple{
+    font-size: 30px;
+}
+.more {
+    width: 22%;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #ff5400;
+    border: 1px solid #ff5400;
+    color: white;
+    margin-top: 10px;
+}
+
+.ul{
+    margin-top: 20px;
+}
+@media screen and (max-width:576px){
+    .package2{
+        flex-direction: column;
+    }
+    .control video{
+        width: 100%;
+        margin-left: -90px;
+        
+        
+    }
+    .control{
+        width: 400px;
+        height: 300px;
+    }
+}

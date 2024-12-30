@@ -1,0 +1,101 @@
+.container{
+    width: 80%;
+    margin: 0 auto;
+    
+}
+.title-new{
+    text-align: center;
+    margin-top: 10px;
+}
+.deals{
+    text-align: center;
+}
+.malay{
+    display: flex;
+    padding: 20px;
+}
+h5{
+    margin-left: 30px;
+    font-size: 20px;
+}
+.clock{
+    margin-left: 10px;
+}
+.people{
+    margin-left: 20px;
+}
+.location{
+    margin-left: 20px;
+}
+.pc{
+    margin-left: 30px;
+}
+.book{
+    width: 22%;
+    padding: 10px;
+    border-radius: 6px;
+    background-color: #ff5400;
+    border: 1px solid #ff5400;
+    margin-left: 30px;
+    color: white;
+}
+.inner-part{
+    background-color: rgba(255, 255, 255, 0.707);
+    border-radius: 10px;
+    height: 75%;
+    width: 40%;
+   position: absolute;
+   right: 7%;
+   bottom: 14%;
+}
+.ig-part{
+    position: relative;
+    margin-top: 15px;
+}
+.inner-part2{
+    background-color: rgba(255, 255, 255, 0.707);
+    border-radius: 10px;
+    height: 75%;
+    width: 40%;
+    bottom: 14%;
+    left: 7%;
+    position: absolute;
+}
+.package{
+    width: 10%;
+    padding: 10px;
+    background-color: #ff5400;
+    color: white;
+    border-radius: 6px;
+    border: 1px solid #ff5400;
+    margin-left: 45%;
+    margin-top: 20px;
+}
+@media screen and (max-width:576px){
+    .ig-part img{
+        width: 500px;
+        height: 400px;
+    }
+    .malay p{
+        width: 30%;
+        font-size: 11px;
+    }
+    .inner-part{
+        height: 80%;
+        width: 80%;
+    }
+    .pc{
+        font-size: 10px;
+    }
+    .book{
+        width: 30%;
+    }
+    .inner-part2{
+        height: 80%;
+        width: 80%;
+    }
+    .package{
+        width: 30%;
+        
+    }
+}

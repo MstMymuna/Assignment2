@@ -1,0 +1,38 @@
+.travel-enjoy{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 30px;
+    
+    height: 300px;
+    background-color: rgba(220, 220, 220, 0.284);
+}
+.travel{
+    display: flex;
+    margin-left: 40%;
+    
+}
+.dolor{
+    
+    text-align: center;
+}
+.apps{
+    text-align: center;
+    height: 70px;
+
+}
+hr{
+    width: 70%;
+}
+.reserved{
+    text-align: center;
+}
+@media screen and (max-width:576px){
+    .travel img{
+        width: 20%;
+       
+    }
+    .travel{
+        margin-left: -5%;
+        margin-left: 85px;
+    }
+}

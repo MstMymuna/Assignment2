@@ -1,0 +1,64 @@
+.choose{
+    text-align: center;
+}
+.card2{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 20px;
+    
+}
+h3{
+    font-size: 40px;
+}
+.card3{
+    display: flex;
+    gap: 15px;
+    width: 96%;
+}
+.card4{
+    border: 1px solid rgb(244, 165, 165);
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 6px;
+}
+.card5{
+    border: 1px solid rgb(145, 177, 253);
+    background-color: rgb(198, 240, 240);
+    padding: 20px;
+    border-radius: 6px;
+}
+.card6{
+    
+    border: 1px solid rgb(244, 166, 165);
+    background-color: antiquewhite;
+    padding: 20px;
+    border-radius: 6px;
+    
+}
+.card7{
+    margin: 0 auto;
+    width: 50%;
+    margin-top: 15px;
+}
+@media screen and (max-width:576px){
+    .card3{
+        flex-direction: column;
+    }
+    .card7{
+        flex-direction: column;
+        width: 100%;
+    }
+    .card4 img{
+        width: 10%;
+    }
+    .card5 img{
+        width: 10%;
+    }
+    .card6 img{
+        width: 10%;
+        
+    }
+    .card6{
+        width: 87%;
+    }
+}

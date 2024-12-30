@@ -1,0 +1,38 @@
+.section{
+    display: flex;
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 150px;
+}
+.tittle{
+    font-size: 26px;
+    margin-top: 10px;
+}
+.section img{
+    width: 100%;
+    height: 100%;
+
+}
+.para{
+    margin-left: 5px;
+    margin-top: 20px;
+}
+.but{
+    width: 20%;
+    height: 40px;
+    border-radius: 8px;
+    margin-top: 20px;
+    margin-left: 5px;
+    background-color: #ff5400;
+    color: white;
+    border: #ff5400;
+}
+@media screen and (max-width:576px) {
+    .section{
+        flex-direction: column;
+    }
+    .section img{
+           height: 250px;
+           margin-top: 10px;
+    }
+}
